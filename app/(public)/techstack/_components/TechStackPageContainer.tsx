@@ -42,7 +42,7 @@ const TechStackPageContainer = () => {
       {skills?.length > 0 && (
         <>
           <h1 className="text-3xl md:text-5xl mb-4 pl-4 font-extrabold">
-            Skills
+            Langages
           </h1>
           <div className=" p-4  gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
             {skills?.map((techstack) => (
@@ -54,7 +54,7 @@ const TechStackPageContainer = () => {
       {devTools?.length > 0 && (
         <>
           <h1 className="text-3xl md:text-5xl my-4 pl-4 font-extrabold">
-            Dev Tools
+            FrontEnd
           </h1>
           <div className=" p-4  gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
             {devTools?.map((techstack) => (
@@ -66,7 +66,7 @@ const TechStackPageContainer = () => {
       {apps?.length > 0 && (
         <>
           <h1 className="text-3xl md:text-5xl my-4 pl-4 font-extrabold">
-            Apps
+            Backend
           </h1>
           <div className=" p-4  gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
             {apps?.map((techstack) => (
@@ -78,7 +78,7 @@ const TechStackPageContainer = () => {
       {games?.length > 0 && (
         <>
           <h1 className="text-3xl md:text-5xl my-4 pl-4 font-extrabold">
-            Games
+            Outils et environnement web
           </h1>
           <div className=" p-4  gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
             {games?.map((techstack) => (
@@ -90,7 +90,7 @@ const TechStackPageContainer = () => {
       {hardware?.length > 0 && (
         <>
           <h1 className="text-3xl md:text-5xl my-4 pl-4 font-extrabold">
-            Hardware
+            SoftSkills
           </h1>
           <div className=" p-4  gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
             {hardware?.map((techstack) => (
